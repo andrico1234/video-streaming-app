@@ -3,10 +3,10 @@
 ## Run Project
 
 ```sh
-npm install
-npm start
+yarn
+yarn start
 # in another tab
-npm run webpack
+yarn webpack
 ```
 
 After you see the webpack compilation succeed (the `npm run webpack` step), open up `src/index.html` (**no server needed!**). Then modify whichever `.re` file in `src` and refresh the page to see the changes.
@@ -16,8 +16,8 @@ After you see the webpack compilation succeed (the `npm run webpack` step), open
 ## Build for Production
 
 ```sh
-npm run build
-npm run webpack:production
+yarn build
+yarn webpack:production
 ```
 
 This will replace the development artifact `build/Index.js` for an optimized version.
